@@ -102,7 +102,54 @@ input {
     cursor: pointer;
     transition: all .1ms;
 }
-
+.nav_menu_left{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 350px;
+    display: flex;
+    justify-content: end;
+    overflow: hidden;
+}
+.nav_menu_item li{
+    margin: 20px 0;
+}
+.nav_menu_item{
+    padding: 100px 20px;
+    width: 300px;
+    height: 100vh;
+    background: #ffffff;
+    position: relative;
+    transform: translateX(300px);
+}
+.nav_onclick_active{
+    transform: translateX(0px);
+}
+.nav_menu_text{
+    font-size: 16px;
+    color: #0a1f3d;
+    line-height: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+.nav_icon_block{
+    position: absolute;
+    top: 20%;
+    left: -20px;
+    background: #ffffff;
+    z-index: 2;
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+.nav_menu_icon{
+    width: 20px;
+    height: 20px;
+    fill: #0a1f3d;
+}
 /*header*/
 /*.container{*/
 /*    background: linear-gradient(0deg, rgba(42, 132, 255, 0.5) 0%, rgba(255,255,255,1) 76%);*/
@@ -427,6 +474,66 @@ input {
 /*    color: #b60505;*/
 /*    box-shadow: 1px 1px 10px #b60505;*/
 /*}*/
+.edit_data{
+    margin-left: 15px;
+}
+.property-block ul{
+    width: 100%;
+}
+.p-nav-panel{
+    display: flex;
+    margin-bottom: 30px;
+}
+.p-b-des-text{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    font-style: normal;
+    margin-bottom: 20px;
+    width: 64%;
+}
+.p-b-title-text{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    font-style: normal;
+}
+.p-item-block{
+    margin-top: 30px;
+}
+.p-b-des-text{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    font-style: normal;
+    margin-bottom: 20px;
+    width: 64%;
+}
+.mar-b-10{
+    margin-bottom: 10px;
+}
+.p-title{
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+.p-ul-des{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px ;
+}
+.mar-b-30{
+    margin-bottom: 30px;
+}
+.property-block{
+    background: #ffffff;
+    padding: 30px 20px;
+    border: 1px solid #CCCCCC;
+    border-radius: 16px;
+}
 @media (max-width: 1450px) {
     .container{
         padding: 0 calc((100% - 1220px) / 2 );
