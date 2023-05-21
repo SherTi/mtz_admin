@@ -288,6 +288,7 @@ input {
     font-size: 20px;
     margin-bottom: 15px;
     padding-left: 10px;
+    user-select: none;
 }
 .form_block{
     margin-bottom: 30px;
@@ -582,6 +583,13 @@ input {
 .th_title{
     width: 30%;
     text-align: center;
+}
+.message_table_tr{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #CCCCCC;
+}
+.border_dev{
+    border: none;
 }
 @media (max-width: 1450px) {
     .container{
